@@ -67,9 +67,18 @@ FQBN=arduino:avr:nano:cpu=atmega328old
 
 ### Build
 
+Compile and upload to your board
+
 ```bash
 # Replace "MySketch" by the sketch name you want to compile and upload
-node build.js -n MySketch
+node build.js --name MySketch
+```
+
+Compile and upload to your board on file changes
+
+```bash
+# Replace "MySketch" by the sketch name you want to compile and upload
+node build.js --name MySketch --watch
 ```
 
 ## Authors
