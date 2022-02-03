@@ -1,7 +1,5 @@
 # Arcade Feu - Prototypes
 
-Simple overview of use/purpose.
-
 ## Description
 
 Early prototypes for Gobelins Project - Arcade Feu (Temporary name)
@@ -60,8 +58,8 @@ arduino-cli core install arduino:avr
 We created a node script to make it easier to compile and upload your code to Arduino.
 Create a .env file and add your port, FBQN strings. example:
 
-```bash
-PORT=/dev/cu.usbserial-14310,
+```env
+PORT=/dev/cu.usbserial-14310
 FQBN=arduino:avr:nano:cpu=atmega328old
 ```
 
