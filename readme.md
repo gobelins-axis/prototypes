@@ -4,7 +4,9 @@
 
 Early prototypes for Gobelins Project - Arcade Feu (Temporary name)
 
-## Getting Started - [Doc](https://arduino.github.io/arduino-cli/0.20/getting-started/)
+## Getting Started
+
+More information on the [Arduino CLI documentation](https://arduino.github.io/arduino-cli/0.20/getting-started/)
 
 ### Dependencies
 
@@ -53,7 +55,7 @@ Example: if your FQBN is "arduino:avr:nano" run
 arduino-cli core install arduino:avr
 ```
 
-### Configure build and upload scripts
+### Configure build script
 
 We created a node script to make it easier to compile and upload your code to Arduino.
 Create a .env file and add your port, FBQN strings. example:
@@ -63,7 +65,7 @@ PORT=/dev/cu.usbserial-14310
 FQBN=arduino:avr:nano:cpu=atmega328old
 ```
 
-### Compile and Upload to Arduino
+### Build
 
 ```bash
 # Replace "MySketch" by the sketch name you want to compile and upload
