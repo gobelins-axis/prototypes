@@ -58,7 +58,7 @@ arduino-cli core install arduino:avr
 ### Configure build script
 
 We created a node script to make it easier to compile and upload your code to Arduino.
-Create a .env file and add your port, FBQN strings. example:
+Create a .env file at the root of the project and add your port, FBQN strings. example:
 
 ```env
 PORT=/dev/cu.usbserial-14310
