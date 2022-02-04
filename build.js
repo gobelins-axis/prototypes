@@ -32,6 +32,7 @@ function setup() {
 }   
 
 function watch() {
+    console.log('Waiting for changes...');
     fs.watch(sketchPath, fileChangeHandler);
 }
 

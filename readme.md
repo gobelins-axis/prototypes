@@ -67,6 +67,12 @@ FQBN=arduino:avr:nano:cpu=atmega328old
 
 ### Build
 
+Start by installing node modules
+
+```bash
+npm install
+```
+
 Compile and upload to your board
 
 ```bash
