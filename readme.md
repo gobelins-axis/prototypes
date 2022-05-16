@@ -1,8 +1,8 @@
-# Arcade Feu - Prototypes
+# Axis - Prototypes
 
 ## Description
 
-Early prototypes for Gobelins Project - Arcade Feu (Temporary name)
+Very early prototypes of communication between arduino and node.js
 
 ## Getting Started
 
